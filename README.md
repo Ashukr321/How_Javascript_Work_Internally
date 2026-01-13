@@ -7,7 +7,7 @@
 1. High level overview of JavaScript 
 2. JavaScript Engine
 3. components of JavaScript Engine
-4.  Compilation and interpreter process working  process
+4. Compilation and interpreter process working  process
 5. Call stack deep dive 
     1. global execution context  
         1. variable environment
