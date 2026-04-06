@@ -46,6 +46,7 @@ This repository provides a deep dive into how JavaScript works under the hood. I
     3. Shallow copy and Deep copy 
     4. Garbage Collection 
         1. Mark and Sweep algorithms
+7. [Interview Questions](./interview-questions/interview%20questions%20ask%20.md)
 
 ## Resources
 
@@ -58,3 +59,4 @@ This repository provides a deep dive into how JavaScript works under the hood. I
 - [Scope Chain](./scope-chain/)
 - [This Keyword](./this-keyword/)
 - [Memory Management](./memory-management/)
+- [Interview Questions](./interview-questions/interview%20questions%20ask%20.md)
