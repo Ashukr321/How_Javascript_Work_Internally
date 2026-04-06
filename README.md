@@ -2,49 +2,59 @@
   <h1>🟨 How JavaScript Works Internally</h1>
 </div>
 
+This repository provides a deep dive into how JavaScript works under the hood. It includes detailed diagrams (created using tldraw) and code examples.
 
-``` 
-1. High level overview of JavaScript 
-2. JavaScript Engine
-3. components of JavaScript Engine
-4. Compilation and interpreter process working  process
-5. Call stack deep dive 
-    1. global execution context  
-        1. variable environment
-        2. scope chain
-        3. this
-    2. execution context 
-6. deep dive inside execution context 
-    1. variable environment 
-    2. scope chain 
-        1. type scope
-            1. global scope 
-            2. function scope 
-            3. block scope
+## Table of Contents
+
+1. [High level overview of JavaScript](./Main/)
+2. [JavaScript Engine](./javascript-engine/)
+3. [Components of JavaScript Engine](./javascript-engine/)
+4. [Compilation and Interpreter Working Process](./javascript-engine/)
+5. [Call Stack Deep Dive](./call-stack/)
+    1. [Global Execution Context](./execution-context/)
+        1. Variable Environment
+        2. [Scope Chain](./scope-chain/)
+        3. [This Keyword](./this-keyword/)
+    2. [Execution Context](./execution-context/)
+6. Deep dive inside [Execution Context](./execution-context/)
+    1. Variable Environment 
+    2. [Scope Chain](./scope-chain/)
+        1. Type Scope
+            1. Global Scope 
+            2. Function Scope 
+            3. Block Scope
             
-            only variable lookup scope chain is allow 
+            *Only variable lookup scope chain is allowed*
             
-    3. this keywords
-        1. this keywords in normal function calling 
-        2. this keywords in methods calling 
-        3. this keywords in arrow function 
-        4. this keywords in event listener 
+    3. [This Keywords](./this-keyword/)
+        1. `this` in normal function calling 
+        2. `this` in methods calling 
+        3. `this` in arrow function 
+        4. `this` in event listener 
         
-        this is never point to itself and variable environment 
+        *`this` never points to itself or the variable environment*
         
-        1. call( )
-        2. apply ( )
-        3. bind ( )
+        1. `call()`
+        2. `apply()`
+        3. `bind()`
     
-    1. Arguments keywords in execution context 
-    2. Memory management life cycle in JavaScript
-        1. memory allocation 
-            1. call stack 
-            2. heap memory 
-    3. shallow copy and deep copy 
-    4. garbage collection 
-        1. mark and sweep algorithms
-        
-```
+    1. Arguments keywords in Execution Context 
+    2. [Memory Management](./memory-management/) Life Cycle
+        1. Memory Allocation 
+            1. [Call Stack](./call-stack/)
+            2. Heap Memory 
+    3. Shallow copy and Deep copy 
+    4. Garbage Collection 
+        1. Mark and Sweep algorithms
 
+## Resources
 
+- [Event Loop](./event-loop/)
+- [Hoisting](./hoisting/)
+- [Main Diagram](./Main/)
+- [JavaScript Engine](./javascript-engine/)
+- [Call Stack](./call-stack/)
+- [Execution Context](./execution-context/)
+- [Scope Chain](./scope-chain/)
+- [This Keyword](./this-keyword/)
+- [Memory Management](./memory-management/)
