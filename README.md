@@ -5,6 +5,7 @@
 This repository provides a deep dive into how JavaScript works under the hood. It includes detailed diagrams (created using tldraw) and code examples.
 
 ## Table of Contents
+[How js work pdf ](./HOW%20JAVASCRIPT%20WORK%20INTERNALLY.pdf)
 
 1. [High level overview of JavaScript](./Main/)
 2. [JavaScript Engine](./javascript-engine/)
