@@ -7,8 +7,30 @@ This repository provides a deep dive into how JavaScript works under the hood. I
 ## Table of Contents
 
 1. [High level overview of JavaScript](./Main/)
+     1. High level 
+     2. Garbage collected
+     3. Interpreted just in time 
+     4. multi paradigm
+     5. Prototype based object oriented
+     6. First class function 
+     7. Dynamic  in nature
+     8. Single threaded 
+     9. non blocking event loop 
+
 2. [JavaScript Engine](./javascript-engine/)
+     1. Heap ( object memory storage )
+     2. callstack
+        1. execution context. 
+
+
 3. [Components of JavaScript Engine](./javascript-engine/)
+     1. js engine 
+     2. web apis 
+     3. callback queue  
+        1. microTask  queue
+        2. macroTask  queue
+     4. event loop
+
 4. [Compilation and Interpreter Working Process](./javascript-engine/)
 5. [Call Stack Deep Dive](./call-stack/)
     1. [Global Execution Context](./execution-context/)
