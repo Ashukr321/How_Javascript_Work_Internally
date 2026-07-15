@@ -24,7 +24,7 @@ This repository provides a deep dive into how JavaScript works under the hood. I
         1. execution context. 
 
 
-3. [Components of JavaScript Engine](./javascript-engine/)
+3. [Runtime in the  Browser](./javascript-engine/)
      1. js engine 
      2. web apis 
      3. callback queue  
@@ -33,6 +33,11 @@ This repository provides a deep dive into how JavaScript works under the hood. I
      4. event loop
 
 4. [Compilation and Interpreter Working Process](./javascript-engine/)
+   1. compilation vs interpretation 
+   2. jit (just in time process);
+   ```
+      1.src -> parsing -> ast -> compilation -> execution  ( * again recompile go to compilation );
+    ```
 5. [Call Stack Deep Dive](./call-stack/)
     1. [Global Execution Context](./execution-context/)
         1. Variable Environment
