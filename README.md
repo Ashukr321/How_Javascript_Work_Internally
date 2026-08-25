@@ -61,7 +61,8 @@ This repository provides a deep dive into how JavaScript works under the hood. I
         4. `this` in event listener 
         
         *`this` never points to itself or the variable environment*
-        
+  
+        methods Borrowing 
         1. `call()`
         2. `apply()`
         3. `bind()`
