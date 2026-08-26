@@ -68,6 +68,7 @@ This repository provides a deep dive into how JavaScript works under the hood. I
         3. `bind()`
     
     1. Arguments keywords in Execution Context 
+        - it's array like object not exaclty array
     2. [Memory Management](./memory-management/) Life Cycle
         1. Memory Allocation 
             1. [Call Stack](./call-stack/)
