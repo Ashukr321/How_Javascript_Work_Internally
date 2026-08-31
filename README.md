@@ -43,7 +43,7 @@ This repository provides a deep dive into how JavaScript works under the hood. I
         1. Variable Environment
         2. [Scope Chain](./scope-chain/)
         3. [This Keyword](./this-keyword/)
-        4. * No agrugument (array like object ) present inside GEC 
+        4. No agrugument (array like object ) present inside GEC 
     2. [Execution Context](./execution-context/)
 6. Deep dive inside [Execution Context](./execution-context/)
     1. Variable Environment 
